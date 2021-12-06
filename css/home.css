@@ -1,0 +1,86 @@
+body {margin:0}
+
+.icon-bar {
+    width: 100%;
+    background-color: rgb(238, 192, 93);
+    overflow: auto;
+  }
+  
+  .icon-bar a {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+  }
+  
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  
+  .active {
+    background-color: #2aeeee;
+  }
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: center;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+  /* Add some content at the bottom of the video/page */
+  .content {
+    position: auto;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Style the button used to pause/play the video */
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
+
+#cangrejo{
+    text-align: center;
+   
+}
+
+fakeimg {
+    height: 200px;
+    background: rgb(212, 52, 52);
+  }
+
+
+#cangrejo{
+    text-align: center;
+    background-color: rgb(212, 52, 52);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+   
+}
+    
+
+   
+

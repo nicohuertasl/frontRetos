@@ -1,0 +1,55 @@
+body {
+  
+  margin: 0;
+  padding: 0;
+ background-color: rgb(195, 188, 188);
+  background-size: cover;
+  height: 100vh;
+  
+}
+.icon-bar {
+  width: 90px;
+  background-color: rgb(82, 72, 72);
+}
+#login .container #login-row #login-column #login-box {
+  margin-top: 30px;
+  max-width: 600px;
+  height: 520px;
+  border: 1px solid #6e6666;
+  background-color: #706464;
+}
+#login .container #login-row #login-column #login-box #login-form {
+  padding: 20px;
+}
+#login
+  .container
+  #login-row
+  #login-column
+  #login-box
+  #login-form
+  #register-link {
+  margin-top: -85px;
+}
+.icon-bar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #04AA6D;
+}

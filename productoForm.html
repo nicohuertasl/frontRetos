@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Productos</title>
+    <link rel="icon" type="image/x-icon" href="img/cangrejodon.png">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css" />
+    <link rel="stylesheet" href="css/registrar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+   
+
+    <div class="icon-bar">
+        <a href="./home.html"><i class="fa fa-home"></i></a> 
+        <a  href="./index.html"><i class="fa fa-user"></i></a> 
+        <a href="./userForm.html"><i class="fa fa-address-card"></i></a> 
+        <a class="active" href="./productoForm.html"><i class="fa fa-star"></i></a>
+      </div>
+
+      <header>
+        <nav class="navbar navbar-expand-lg  navbar-dark bg-dark ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">HOGAR CASA LIMPIA LTDA.</a>
+                <span class="navbar-toggler-icon"></span>
+              </div>
+          </nav>
+        </header> 
+
+    <div class="container">
+        <div id="login-row" class="row justify-content-center align-items-center">
+            <div id="login-column" class="col-md-6">
+                <div id="login-box" class="col-md-12">
+                    <form id="userForm" class="form " action="" method="post">
+                        <h3 class="text-center text-white">REGISTRO DE PRODUCTOS</h3>
+                        <div class="form-group">
+                            <label for="referenceProd" class="text-white">Referencia</label><br />
+                            <input type="text" name="referenceProd" id="referenceProd" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="brandProd" class="text-white">Marca</label><br>
+                            <input type="text" name="brandrProd" id="brandProd" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="categoryProd" class="text-white">Categoria</label><br>
+                            <input type="text" name="categoryProd" id="categoryProd" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="objetivoProd" class="text-white">Objetivo</label>
+                            <input type="text" name="objetivoProd" id="objetivoProd" class="form-control"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <label for="descriptionProd" class="text-white">Descripción</label>
+                            <input type="text" name="descriptionProd" id="descriptionProd" class="form-control"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <label for="photographyProd" class="text-white">Fotografia</label><br>
+                            <input type="text" name="photographyProd" id="photographyProd" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="availabilityProd" class="text-white">Disponibilidad</label><br>
+                            <select name="availabilityProd" id="availabilityProd" class="form-control" required>
+                                <option selected value="">Selecciona disponibilidad</option>
+                                <option value="disponible">Disponible</option>
+                                <option value="noDisponible">No disponible</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="priceProd" class="text-white">Precio</label><br>
+                            <input type="number" name="priceProd" id="priceProd" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="quantityProd" class="text-white">Cantidad</label><br>
+                            <input type="number" name="quantityProd" id="quantityProd" class="form-control" required>
+                        </div>                        
+                </div>
+            </div>
+        </div>
+        <div class="form-group text-center">
+            <input type="submit" name="guardaeDatos" class="btn btn-dark btn-md" value="Guardar" onclick="" />
+            <input class="btn btn-dark btn-md" value="Cancelar" onclick="" />
+        </div>
+
+        </form>
+    </div>
+</body>
+
+</html>
